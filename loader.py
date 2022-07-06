@@ -33,7 +33,7 @@ try:
     DATASET_VERSION = str(DATASET_VERSION)
     NUM_CLASS = int(NUM_CLASS)
 except:
-    print(f'usage : python3 <version of activitynet dataset (1.2 or 1.3)> <number of top classes to be extracted>')
+    print(f'usage : python3 <version of activitynet dataset (1.2 or 1.3)> <number of top classes to be loaded>')
     exit()
 
 dir_elements = os.listdir(os.getcwd())
